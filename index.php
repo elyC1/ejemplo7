@@ -3,7 +3,7 @@
 //incluimo el archivo de la clase
     include('clases/producto.php');
 //creamos una variable que representara a la clase
-    $producto= NEW Producto();
+    //$producto= NEW Producto();
 
     //mandamos a llamar la funcionn ppara mostrar los productos 
     $datos = $producto->mostrarNuevos();
